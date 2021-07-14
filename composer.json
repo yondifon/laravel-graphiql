@@ -1,0 +1,12 @@
+{
+    "name": "malico/laravel-graphiql",
+    "description": "GraphiQL in Laravel Application",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Malico",
+            "email": "hi@malico.me"
+        }
+    ],
+    "require": {}
+}
