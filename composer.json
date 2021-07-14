@@ -8,5 +8,19 @@
             "email": "hi@malico.me"
         }
     ],
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "Malico\\GraphiQL\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Malico\\GraphiQL\\GraphiQLServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "illuminate/support": "^6.0|^7.0|^8.0"
+    }
 }
