@@ -29,7 +29,7 @@
         "@babel/preset-react": "^7.14.5",
         "graphiql": "^1.4.2",
         "graphiql-explorer": "^0.6.3",
-        "graphql": "^15.5.0",
+        "graphql": "15.8.0",
         "laravel-mix": "^6.0.25",
         "react": "^16.14.0",
         "react-dom": "^16.14.0"
