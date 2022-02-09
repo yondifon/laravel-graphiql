@@ -1,26 +1,26 @@
 {
-    "name": "malico/laravel-graphiql",
-    "description": "GraphiQL in Laravel Application",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Malico",
-            "email": "hi@malico.me"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Malico\\GraphiQL\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Malico\\GraphiQL\\GraphiQLServiceProvider"
-            ]
-        }
-    },
-    "require": {
-        "illuminate/support": "^6.0|^7.0|^8.0"
-    }
+	"name": "malico/laravel-graphiql",
+	"description": "GraphiQL in Laravel Application",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Malico",
+			"email": "hi@malico.me"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Malico\\GraphiQL\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Malico\\GraphiQL\\GraphiQLServiceProvider"
+			]
+		}
+	},
+	"require": {
+		"illuminate/support": "^6.0|^7.0|^8.0|^9.0"
+	}
 }
